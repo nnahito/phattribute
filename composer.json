@@ -1,0 +1,16 @@
+{
+    "name": "nnahito/phattribute",
+    "require": {
+        "php": "8.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nnahito\\Phattribute\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nnahito"
+        }
+    ]
+}

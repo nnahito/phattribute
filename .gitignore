@@ -1,0 +1,8 @@
+.idea
+composer.lock
+
+# own test env
+docker
+docker-compose.yml
+/vendor/
+index.php
