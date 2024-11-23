@@ -7,7 +7,7 @@ namespace Nnahito\Phattribute\Attribute;
 use Attribute;
 
 #[Attribute(Attribute::TARGET_PROPERTY)]
-class Tel
+class Tel implements AttributeInterface
 {
     public function __construct(
         private string $format = 'default',
